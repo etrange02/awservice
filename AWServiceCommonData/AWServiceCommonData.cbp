@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="AWServiceCommonData" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/AWServiceCommonData" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Debug/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add directory="include/input" />
+					<Add directory="include/output" />
+					<Add directory="include/element" />
+					<Add directory="include/visitor" />
+					<Add directory="include/model" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/AWServiceCommonData" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Release/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-O2" />
+					<Add directory="include/input" />
+					<Add directory="include/output" />
+					<Add directory="include/element" />
+					<Add directory="include/visitor" />
+					<Add directory="include/model" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=gnu++11" />
+		</Compiler>
+		<Unit filename="include/element/ArrayElement.h" />
+		<Unit filename="include/element/Boolean.h" />
+		<Unit filename="include/element/ClassElement.h" />
+		<Unit filename="include/element/DateTime.h" />
+		<Unit filename="include/element/Element.h" />
+		<Unit filename="include/element/Integer.h" />
+		<Unit filename="include/element/NativeElement.h" />
+		<Unit filename="include/element/Raw.h" />
+		<Unit filename="include/element/Real.h" />
+		<Unit filename="include/element/String.h" />
+		<Unit filename="include/model/IUserModel.h" />
+		<Unit filename="include/visitor/IVisitable.h" />
+		<Unit filename="include/visitor/IVisitor.h" />
+		<Unit filename="src/element/ArrayElement.cpp" />
+		<Unit filename="src/element/Boolean.cpp" />
+		<Unit filename="src/element/ClassElement.cpp" />
+		<Unit filename="src/element/DateTime.cpp" />
+		<Unit filename="src/element/Element.cpp" />
+		<Unit filename="src/element/Integer.cpp" />
+		<Unit filename="src/element/NativeElement.t.hpp" />
+		<Unit filename="src/element/Raw.cpp" />
+		<Unit filename="src/element/Real.cpp" />
+		<Unit filename="src/element/String.cpp" />
+		<Unit filename="src/model/IUserModel.cpp" />
+		<Unit filename="src/visitor/IVisitable.cpp" />
+		<Unit filename="src/visitor/IVisitor.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

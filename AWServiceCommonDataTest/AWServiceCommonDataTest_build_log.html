@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>AWServiceCommonDataTest build log</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+<body>
+<tt>
+Build started on: <u>21-01-2017 at 20:10.17</u><br />
+Build ended on: <u>21-01-2017 at 20:10.19</u><p />
+<b>-------------- Build: Debug in AWServiceCommonData (compiler: GNU GCC Compiler)---------------</b><br />
+Target is up to date.<br />
+<b>-------------- Build: Debug in AWServiceCommonDataTest (compiler: GNU GCC Compiler)---------------</b><br />
+mingw32-g++.exe -Wall -fexceptions -std=gnu++11 -g -std=gnu++0x -IC:\Workspace\Projects\AWService\AWServiceCommonData\include -IC:\Workspace\Projects\AWService\AWServiceCommonData\include\element -IC:\Workspace\Projects\AWService\AWServiceCommonData\include\model -IC:\Workspace\Projects\AWService\AWServiceCommonData\include\visitor -Iinclude -c C:\Workspace\Projects\AWService\AWServiceCommonDataTest\main.cpp -o obj\Debug\main.o<br />
+<font color="#0000ff">C:\Workspace\Projects\AWService\AWServiceCommonDataTest\main.cpp:69:73: warning: integer constant is too large for its type</font><br />
+     AWS::Integer* integ4 = new AWS::Integer("integ4"); integ4-&gt;setValue(92233720368547758074294967295); // -1<br />
+                                                                         ^<br />
+C:\Workspace\Projects\AWService\AWServiceCommonDataTest\main.cpp: In function 'int main()':<br />
+<font color="#0000ff">C:\Workspace\Projects\AWService\AWServiceCommonDataTest\main.cpp:69:102: warning: overflow in implicit constant conversion [-Woverflow]</font><br />
+     AWS::Integer* integ4 = new AWS::Integer("integ4"); integ4-&gt;setValue(92233720368547758074294967295); // -1<br />
+                                                                                                      ^<br />
+mingw32-g++.exe -LC:\Workspace\Projects\AWService\AWServiceCommonData\bin\Debug -o bin\Debug\AWServiceCommonDataTest.exe obj\Debug\main.o obj\Debug\src\People.o obj\Debug\src\Vehicle.o   C:\Workspace\Projects\AWService\AWServiceCommonData\bin\Debug\libAWServiceCommonData.a<br />
+Output file is bin\Debug\AWServiceCommonDataTest.exe with size 2,71 MB<br />
+<font color="#0000ff">Process terminated with status 0 (0 minute(s), 2 second(s))</font><br />
+<font color="#0000ff">0 error(s), 2 warning(s) (0 minute(s), 2 second(s))</font><br />
+</tt>
+</body>
+</html>

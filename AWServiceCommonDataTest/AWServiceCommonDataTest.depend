@@ -1,0 +1,92 @@
+# depslib dependency file v1.0
+1485018547 source:c:\workspace\projects\awservice\awservicecommondatatest\main.cpp
+	<iostream>
+	<stdexcept>
+	"element/NativeElement.h"
+	"element/Boolean.h"
+	"element/Integer.h"
+	"element/ArrayElement.h"
+	"element/ClassElement.h"
+	"element/String.h"
+	"element/Real.h"
+	"Vehicle.h"
+	"People.h"
+
+1477775700 c:\workspace\projects\awservice\awservicecommondata\include\element\boolean.h
+	<element/NativeElement.h>
+	<string>
+
+1484781594 c:\workspace\projects\awservice\awservicecommondata\include\element\nativeelement.h
+	<element/Element.h>
+	"../../src/element/NativeElement.t.hpp"
+
+1477774772 c:\workspace\projects\awservice\awservicecommondata\include\element\element.h
+	<string>
+	"visitor/IVisitable.h"
+
+1477775048 c:\workspace\projects\awservice\awservicecommondata\include\visitor\ivisitable.h
+
+1477695937 c:\workspace\projects\awservice\awservicecommondata\src\element\boolean.t.hpp
+	<string>
+
+1477775089 c:\workspace\projects\awservice\awservicecommondata\include\visitor\ivisitor.h
+
+1477695128 source:c:\workspace\projects\awservice\awservicecommondata\src\element\boolean.cpp
+	"element/Boolean.h"
+	<IVisitor.h>
+
+1484781554 c:\workspace\projects\awservice\awservicecommondata\src\element\nativeelement.t.hpp
+	"NativeElement.h"
+
+1476909640 c:\workspace\projects\awservice\awservicecommondata\include\element\integer.h
+	<NativeElement.h>
+
+1485018497 c:\workspace\projects\awservice\awservicecommondata\include\element\arrayelement.h
+	<vector>
+	<Element.h>
+
+1485016636 source:c:\workspace\projects\awservice\awservicecommondatatest\src\vehicle.cpp
+	"Vehicle.h"
+	"People.h"
+	"element/ClassElement.h"
+	"element/Element.h"
+	"model/ElementFactory.h"
+
+1485013884 c:\workspace\projects\awservice\awservicecommondatatest\include\vehicle.h
+	"model/IUserModel.h"
+	<vector>
+
+1485014620 c:\workspace\projects\awservice\awservicecommondata\include\model\iusermodel.h
+	<string>
+
+1483656876 c:\workspace\projects\awservice\awservicecommondata\include\element\classelement.h
+	<map>
+	<Element.h>
+
+1476828753 c:\workspace\projects\awservice\awservicecommondata\include\element\string.h
+	<NativeElement.h>
+	<IVisitor.h>
+
+1485025027 source:c:\workspace\projects\awservice\awservicecommondatatest\src\people.cpp
+	"People.h"
+	"element/ClassElement.h"
+	"model/ElementFactory.h"
+
+1484994619 c:\workspace\projects\awservice\awservicecommondatatest\include\people.h
+	"model/IUserModel.h"
+	"element/Element.h"
+
+1476909640 c:\workspace\projects\awservice\awservicecommondata\include\element\real.h
+	<NativeElement.h>
+	<IVisitor.h>
+
+1484865521 c:\workspace\projects\awservice\awservicecommondata\include\element\conversionmacro.h
+
+1485025027 c:\workspace\projects\awservice\awservicecommondata\include\model\elementfactory.h
+	<vector>
+	<algorithm>
+	"element/ArrayElement.h"
+	"model/IUserModel.h"
+
+1485014894 c:\workspace\projects\awservice\awservicecommondata\include\model\vectortoarrayelement.h
+
